@@ -137,17 +137,6 @@ summary(model_bike)$coefficients[6,1]-1.96*summary(model_bike)$coefficients[6,2]
 ## Say we are interested in successive differences in heights, Dij = Hi;j+1 􀀀Hij ; j = 1; 2; :::; k 􀀀 define Di = (Di1; :::;Dik)′.
 ## Explain why each Di is (k􀀀1)-variate normal, and derive matrix expressions for the mean vector and covariance matrices.
 
-#Hij means the height of the ith child in the dateset when he/she is j years old
-#the population distribution of Hi is k-variate normal with mean vector μ and covariance matrix Σ.
-#Dij = Hij+1 − Hij, j=1,2,...,k−1. 
-#Dij means how much the ith child in the dateset grow taller is his/her j+1 years
-# for each element in Hij+1 = Dij + Hij on corresponding position
-#when j=max, Hik - Hi(k-1) = Di(k-1)
-#            Hi(k-1) - Hi(k-2) = Di(k-2)
-#        so, Hik - Hi(k-2) = Di(k-1) + Di(K-2)
-# which means, in Dij, [later + former] equals to [one element - second former] in Hij
-# because, the population distribution of both Hij+1,Hij is k-variate normal
-# So, The population distribution of Di is (k-1) variate normal distribution
 
 
 
