@@ -140,7 +140,7 @@ summary(model_bike)$coefficients[6,1]-1.96*summary(model_bike)$coefficients[6,2]
 
 
 
-##In the simulation in Section 2.9.3, it is claimed that p2 = 0.50. Confirm this through derivation.
+##4. In the simulation in Section 2.9.3, it is claimed that p2 = 0.50. Confirm this through derivation.
 # p^2 = 1 - Var(E) / Var(Y) 
 #     = 1 - Var(E) / (Var(u(X)) + Var(E)) 
 #     = 1 - p/(p+p) = 0.5
